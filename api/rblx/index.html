@@ -2,52 +2,49 @@
 <html>
 
 <head>
+    <title>nil rblx api</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Milon" />
+    <meta name="twitter:creator" content="@Miilllon" />
+    <meta name="twitter:title" content="nil rblx api" />
+    <meta name="twitter:description" content="nil rblx api" />
+    <meta name="twitter:image" content="https://cdn.discordapp.com/attachments/560458356607680522/907039256743145492/Untitled449_20211107234923.png" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <style>
+        pre {
+            word-wrap: break-word !important;
+            white-space: pre-wrap !important;
+        }
+    </style>
     <script>
         $(document).ready(function () {
             var userId = 1;
             var usernameApiGet = "exampleusername";
 
             $.ajax({
-                url: "https://nil.b4a.app/api.php",
+                url: "https://rbxmx-api.000webhostapp.com/api.php",
                 method: "GET",
                 data: {
                     userid: userId
                 },
                 success: function (data) {
-                    var rblxData = JSON.parse(data);
-
-                    var username = rblxData.username;
-                    var userid = rblxData.userid;
-                    var isBanned = rblxData.isBanned;
-                    var friends = rblxData.friends;
-                    var followers = rblxData.followers;
-                    var displayname = rblxData.display;
-                    var following = rblxData.following;
-
-                    $("#username").html(username);
-                    $("#userid").html(userid);
-                    $("#isBanned").html(isBanned);
-                    $("#friends").html(friends);
-                    $("#followers").html(followers);
-                    $("#displayname").html(displayname);
-                    $("#following").html(following);
+                    var username = data.username;
+                    var userid = data.userid;
+                    var isBanned = data.isBanned;
+                    var friends = data.friends;
+                    var followers = data.followers;
+                    var displayname = data.display;
+                    var following = data.following;
+                    $("#data").html("<pre>" + JSON.stringify(data, null, 4) + "</pre>");
                 }
             });
         });
     </script>
-</head>
-
-<body>
-    <pre style="word-wrap: break-word; white-space: pre-wrap;">
-    <div>Username: <span id="username"></span></div>
-    <div>User ID: <span id="userid"></span></div>
-    <div>Is Banned: <span id="isBanned"></span></div>
-    <div>Friends: <span id="friends"></span></div>
-    <div>Followers: <span id="followers"></span></div>
-    <div>Display Name: <span id="displayname"></span></div>
-    <div>Following: <span id="following"></span></div>
-</pre>
+    <pre id="data" style="word-wrap: break-word; white-space: nowrap;"></pre>
 </body>
 
 </html>
