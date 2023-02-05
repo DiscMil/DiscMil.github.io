@@ -1,43 +1,46 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-      $(document).ready(function() {
-        var userId = 123456;
-        var usernameApiGet = "exampleusername";
+        $(document).ready(function () {
+            var userId = 123456;
+            var usernameApiGet = "exampleusername";
 
-        $.ajax({
-          url: "https://milon.rf.gd/api/rbx/api.php?userid=1",
-          method: "GET",
-          data: {
-            userid: userId,
-            username: usernameApiGet
-          },
-          success: function(data) {
-            var rblxData = JSON.parse(data);
+            $.ajax({
+                url: "https://milon.rf.gd/api/rbx/api.php?userid=1",
+                method: "GET",
+                data: {
+                    userid: userId,
+                    username: usernameApiGet
+                },
+                success: function (data) {
+                    var rblxData = JSON.parse(data);
 
-            var username = rblxData.username;
-            var userid = rblxData.userid;
-            var isBanned = rblxData.isBanned;
-            var friends = rblxData.friends;
-            var followers = rblxData.followers;
-            var displayname = rblxData.display;
-            var following = rblxData.following;
+                    var username = rblxData.username;
+                    var userid = rblxData.userid;
+                    var isBanned = rblxData.isBanned;
+                    var friends = rblxData.friends;
+                    var followers = rblxData.followers;
+                    var displayname = rblxData.display;
+                    var following = rblxData.following;
 
-            $("#username").html(username);
-            $("#userid").html(userid);
-            $("#isBanned").html(isBanned);
-            $("#friends").html(friends);
-            $("#followers").html(followers);
-            $("#displayname").html(displayname);
-            $("#following").html(following);
-          }
+                    $("#username").html(username);
+                    $("#userid").html(userid);
+                    $("#isBanned").html(isBanned);
+                    $("#friends").html(friends);
+                    $("#followers").html(followers);
+                    $("#displayname").html(displayname);
+                    $("#following").html(following);
+                }
+            });
         });
-      });
     </script>
-  </head>
-  <body>
+</head>
+
+<body>
+    <pre style="word-wrap: break-word; white-space: pre-wrap;">
     <div>Username: <span id="username"></span></div>
     <div>User ID: <span id="userid"></span></div>
     <div>Is Banned: <span id="isBanned"></span></div>
@@ -45,5 +48,7 @@
     <div>Followers: <span id="followers"></span></div>
     <div>Display Name: <span id="displayname"></span></div>
     <div>Following: <span id="following"></span></div>
-  </body>
+</pre>
+</body>
+
 </html>
