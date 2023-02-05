@@ -39,7 +39,7 @@
                     var followers = data.followers;
                     var displayname = data.display;
                     var following = data.following;
-                    $("#data").html("<pre>" + JSON.stringify(data, null, 4) + "</pre>");
+                    $("#data").html("<pre>" + JSON.stringify([data], null, 4) + "</pre>");
                 }
             });
         });
