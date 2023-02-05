@@ -1,72 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>rblx api</title>
-</head>
-
-<body>
+<html>
+  <head>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
-        const https = require('https');
+      $(document).ready(function() {
+        var userId = 123456;
+        var usernameApiGet = "exampleusername";
 
-        const placeId = '620194361';
-        const userId = new URL(window.location.href).searchParams.get('userid');
-        const usernameApiGet = new URL(window.location.href).searchParams.get('username');
+        $.ajax({
+          url: "https://milon.rf.gd/api/rbx/api.php?userid=1",
+          method: "GET",
+          data: {
+            userid: userId,
+            username: usernameApiGet
+          },
+          success: function(data) {
+            var rblxData = JSON.parse(data);
 
-        async function getData(url) {
-            return new Promise((resolve, reject) => {
-                https.get(url, (res) => {
-                    let data = '';
-                    res.on('data', (chunk) => {
-                        data += chunk;
-                    });
-                    res.on('end', () => {
-                        resolve(JSON.parse(data));
-                    });
-                }).on('error', (error) => {
-                    reject(error);
-                });
-            });
-        }
+            var username = rblxData.username;
+            var userid = rblxData.userid;
+            var isBanned = rblxData.isBanned;
+            var friends = rblxData.friends;
+            var followers = rblxData.followers;
+            var displayname = rblxData.display;
+            var following = rblxData.following;
 
-        async function main() {
-            const countApi = await getData(`https://games.roblox.com/v1/games/${placeId}/favorites/count`);
-            const nameApi = await getData(`https://api.roblox.com/users/get-by-username?username=${usernameApiGet}`);
-            const usernameId = nameApi.id;
-            const userApi = await getData(`https://users.roblox.com/v1/users/${userId}`);
-            const badgesApi = await getData(`https://accountinformation.roblox.com/v1/users/498941002/roblox-badges`);
-            const avatarLink = `https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=${userApi.name}`;
-            const friendsApi = await getData(`https://friends.roblox.com/v1/users/${userId}/friends/count`);
-            const followersApi = await getData(`https://friends.roblox.com/v1/users/${userId}/followers/count`);
-            const followingApi = await getData(`https://friends.roblox.com/v1/users/${userId}/friends/count`);
-
-            const username = userApi.name;
-            const displayname = userApi.displayName;
-            const playerId = userApi.id;
-            const isBanned = userApi.isBanned;
-            const favCount = countApi.favoritesCount;
-            const friends = friendsApi.count;
-            const followers = followersApi.count;
-            const following = followingApi.count;
-
-            const rblxSt = {
-                username,
-                userid: playerId,
-                isBanned,
-                friends,
-                followers,
-                display: displayname,
-                following
-            };
-
-            return rblxSt;
-        }
-
-        main().then(console.log);
+            $("#username").html(username);
+            $("#userid").html(userid);
+            $("#isBanned").html(isBanned);
+            $("#friends").html(friends);
+            $("#followers").html(followers);
+            $("#displayname").html(displayname);
+            $("#following").html(following);
+          }
+        });
+      });
     </script>
-</body>
-
+  </head>
+  <body>
+    <div>Username: <span id="username"></span></div>
+    <div>User ID: <span id="userid"></span></div>
+    <div>Is Banned: <span id="isBanned"></span></div>
+    <div>Friends: <span id="friends"></span></div>
+    <div>Followers: <span id="followers"></span></div>
+    <div>Display Name: <span id="displayname"></span></div>
+    <div>Following: <span id="following"></span></div>
+  </body>
 </html>
