@@ -5,15 +5,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script>
         $(document).ready(function () {
-            var userId = 123456;
+            var userId = 1;
             var usernameApiGet = "exampleusername";
 
             $.ajax({
-                url: "https://milon.rf.gd/api/rbx/api.php?userid=1",
+                url: "https://milon.rf.gd/api/rbx/api.php?userid=",
                 method: "GET",
                 data: {
-                    userid: userId,
-                    username: usernameApiGet
+                    userid: userId
                 },
                 success: function (data) {
                     var rblxData = JSON.parse(data);
