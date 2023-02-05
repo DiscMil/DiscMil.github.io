@@ -1,23 +1,72 @@
 <!DOCTYPE html>
-<html lang="en" theme="light">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="author" content="Aman Maharshi">
-    <link rel="stylesheet" href="style.css">
-    <title>Home</title>
+    <title>rblx api</title>
 </head>
-<body>
-    <div class="container">
-        <h1>Light/Dark Mode</h1>
-        <div class="toggle-container">
-            <input type="checkbox" id="switch">
-            <label for="switch">Toggle</label>
-        </div>
-        <p>Light/Dark theme toggle switch for websites. These are useful in using screen devices in dark or to save some battery life.</p>
-    </div>
 
-    <script src="script.js"></script>
+<body>
+    <script>
+        const https = require('https');
+
+        const placeId = '620194361';
+        const userId = new URL(window.location.href).searchParams.get('userid');
+        const usernameApiGet = new URL(window.location.href).searchParams.get('username');
+
+        async function getData(url) {
+            return new Promise((resolve, reject) => {
+                https.get(url, (res) => {
+                    let data = '';
+                    res.on('data', (chunk) => {
+                        data += chunk;
+                    });
+                    res.on('end', () => {
+                        resolve(JSON.parse(data));
+                    });
+                }).on('error', (error) => {
+                    reject(error);
+                });
+            });
+        }
+
+        async function main() {
+            const countApi = await getData(`https://games.roblox.com/v1/games/${placeId}/favorites/count`);
+            const nameApi = await getData(`https://api.roblox.com/users/get-by-username?username=${usernameApiGet}`);
+            const usernameId = nameApi.id;
+            const userApi = await getData(`https://users.roblox.com/v1/users/${userId}`);
+            const badgesApi = await getData(`https://accountinformation.roblox.com/v1/users/498941002/roblox-badges`);
+            const avatarLink = `https://assetgame.roblox.com/Thumbs/Avatar.ashx?username=${userApi.name}`;
+            const friendsApi = await getData(`https://friends.roblox.com/v1/users/${userId}/friends/count`);
+            const followersApi = await getData(`https://friends.roblox.com/v1/users/${userId}/followers/count`);
+            const followingApi = await getData(`https://friends.roblox.com/v1/users/${userId}/friends/count`);
+
+            const username = userApi.name;
+            const displayname = userApi.displayName;
+            const playerId = userApi.id;
+            const isBanned = userApi.isBanned;
+            const favCount = countApi.favoritesCount;
+            const friends = friendsApi.count;
+            const followers = followersApi.count;
+            const following = followingApi.count;
+
+            const rblxSt = {
+                username,
+                userid: playerId,
+                isBanned,
+                friends,
+                followers,
+                display: displayname,
+                following
+            };
+
+            return rblxSt;
+        }
+
+        main().then(console.log);
+    </script>
 </body>
+
 </html>
