@@ -1,0 +1,348 @@
+<div class="table-page__container js-table-page-container">
+   <div class="table-page__container__wrapper">
+      <table class="table-page__container__wrapper__table js-results-table">
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 0;" class="cell__icon smsc-svg--24 smsc-svg--book_green--24"></span><span aria-label="Algemeen totaal" class="cell__course-name">Algemeen totaal</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 1;" class="cell__icon smsc-svg--24 smsc-svg--book_green--24"></span><span aria-label="Algemene vorming" class="cell__course-name">Algemene vorming</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--angel--24"></span><span aria-label="Godsdienst" class="cell__course-name">Godsdienst</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1564352" class="evaluation__content js-evaluation-content c-yellow-combo--100" style=" --feedback-color: var(--c-yellow--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="4/8" class="graphic__text">4/8</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--soccer_ball--24"></span><span aria-label="Lichamelijke opvoeding" class="cell__course-name">Lichamelijke opvoeding</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--colors--24"></span><span aria-label="Project algemene vakken" class="cell__course-name">Project algemene vakken</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1567838" class="evaluation__content js-evaluation-content c-yellow-combo--100" style=" --feedback-color: var(--c-yellow--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="5/10" class="graphic__text">5/10</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1567818" class="evaluation__content js-evaluation-content c-green-combo--100" style=" --feedback-color: var(--c-green--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="3,5/5" class="graphic__text">3,5/5</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1567902" has-feedback="" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--text">
+                     <div class="graphic--text graphic graphic--32"><span title="—" class="graphic__text">—</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 1;" class="cell__icon smsc-svg--24 smsc-svg--book_green--24"></span><span aria-label="Talen" class="cell__course-name">Talen</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--flag_great_britain--24"></span><span aria-label="Engels" class="cell__course-name">Engels</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1565206" class="evaluation__content js-evaluation-content c-green-combo--100" style=" --feedback-color: var(--c-green--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="6,8/10" class="graphic__text">6,8/10</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1566214" class="evaluation__content js-evaluation-content c-green-combo--100" style=" --feedback-color: var(--c-green--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="14,7/20" class="graphic__text">14,7/20</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1566230" class="evaluation__content js-evaluation-content c-olive-combo--100" style=" --feedback-color: var(--c-olive--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="8,5/10" class="graphic__text">8,5/10</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--flag_france--24"></span><span aria-label="Frans" class="cell__course-name">Frans</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1565606" class="evaluation__content js-evaluation-content c-green-combo--100" style=" --feedback-color: var(--c-green--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="11/15" class="graphic__text">11/15</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1565000" class="evaluation__content js-evaluation-content c-yellow-combo--100" style=" --feedback-color: var(--c-yellow--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="5/10" class="graphic__text">5/10</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1565654" class="evaluation__content js-evaluation-content c-green-combo--100" style=" --feedback-color: var(--c-green--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="13/17" class="graphic__text">13/17</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1565658" class="evaluation__content js-evaluation-content c-olive-combo--100" style=" --feedback-color: var(--c-olive--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="14/15" class="graphic__text">14/15</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1568330" class="evaluation__content js-evaluation-content c-olive-combo--100" style=" --feedback-color: var(--c-olive--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="18/20" class="graphic__text">18/20</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1568894" class="evaluation__content js-evaluation-content c-red-combo--100" style=" --feedback-color: var(--c-red--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="1,5/10" class="graphic__text">1,5/10</span></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_normal_1568892" class="evaluation__content js-evaluation-content c-red-combo--100" style=" --feedback-color: var(--c-red--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--percentage">
+                     <div class="graphic--percentage-as-a-text graphic graphic--32"><span title="6,5/15" class="graphic__text">6,5/15</span></div>
+                  </div>
+               </button>
+            </td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 1;" class="cell__icon smsc-svg--24 smsc-svg--book_green--24"></span><span aria-label="Richtingspecifieke vorming" class="cell__course-name">Richtingspecifieke vorming</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--book_green--24"></span><span aria-label="Module administratief medewerker totaal" class="cell__course-name">Module administratief medewerker totaal</span></div>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 3;" class="cell__icon smsc-svg--24 smsc-svg--cashier--24"></span><span aria-label="Module administratief medewerker" class="cell__course-name">Module administratief medewerker</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60210" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60196" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60262" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60408" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60404" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60402" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 3;" class="cell__icon smsc-svg--24 smsc-svg--document_chart--24"></span><span aria-label="Stage" class="cell__course-name">Stage</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60960" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 2;" class="cell__icon smsc-svg--24 smsc-svg--truck_red--24"></span><span aria-label="Module logistiek" class="cell__course-name">Module logistiek</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60226" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60914" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60910" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60904" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60916" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60912" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60926" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+         </tr>
+         <tr class="row row--course js-row-course">
+            <td class="cell cell--course js-cell-fixed cell--fixed">
+               <div class="cell__content"><span style="--indentation: 1;" class="cell__icon smsc-svg--24 smsc-svg--money2--24"></span><span aria-label="Ondernemend project" class="cell__course-name">Ondernemend project</span></div>
+            </td>
+            <td class="cell cell--evaluation js-cell-evaluation evaluation">
+               <button evaluation-identifier="521_12627_0_project_60928" class="evaluation__content js-evaluation-content c-steel-combo--100" style=" --feedback-color: var(--c-steel--700);">
+                  <div class="evaluation-graphic evaluation-graphic--results-table evaluation-graphic--icon">
+                     <div class="graphic--icon smsc-svg--target_lpd_steel--16 graphic graphic--32"></div>
+                  </div>
+               </button>
+            </td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+            <td class="cell cell--spacer">&nbsp;</td>
+         </tr>
+      </table>
+   </div>
+</div>
